@@ -1,0 +1,25 @@
+PODS:
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - ProatomicCocoalumberjackLogger (0.1.0):
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - ProatomicCocoalumberjackLogger (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  ProatomicCocoalumberjackLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  ProatomicCocoalumberjackLogger: 1abfce067fdca7b09d8babe1feae14d832470855
+
+PODFILE CHECKSUM: 55068557d59edd4915ab1d5ff60be50d5e57c8a6
+
+COCOAPODS: 1.6.1

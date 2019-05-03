@@ -8,6 +8,6 @@ target 'ProatomicCocoalumberjackLogger_Example' do
   target 'ProatomicCocoalumberjackLogger_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    # pod 'FBSnapshotTestCase'
   end
 end

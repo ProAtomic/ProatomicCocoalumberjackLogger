@@ -8,11 +8,15 @@
 
 #import "PASAppDelegate.h"
 
+@import ProatomicCocoalumberjackLogger;
+
 @implementation PASAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [PASLoggerHelper loadDebuggingInformationOverlay];
     return YES;
 }
 
