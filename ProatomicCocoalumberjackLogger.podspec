@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://proatomicdev.com'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '942v' => 'gsaenz@proatomicdev.com' }
-  s.source           = { :git => 'https://bitbucket.org/proatomic/proatomiccocoalumberjacklogger.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ProAtomic/ProatomicCocoalumberjackLogger.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.3'
 
